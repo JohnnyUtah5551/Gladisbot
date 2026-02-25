@@ -139,3 +139,4 @@ def send_complete_application_to_telegram(session: Dict[str, Any], full_conversa
     except Exception as e:
         print(f"❌ Ошибка при отправке полной заявки: {str(e)}")
         return False
+
