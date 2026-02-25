@@ -117,3 +117,4 @@ def handle_contact_collection(message: str, session: Dict[str, Any]) -> str:
     else:
         # Если ничего нет, просим оба
         return "Для записи мне нужно ваше имя и телефон для связи. Укажите их, пожалуйста."
+
